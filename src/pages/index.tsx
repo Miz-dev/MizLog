@@ -3,7 +3,7 @@ import { MicroCMSListResponse } from "microcms-js-sdk";
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import mizlogLogo from "../assets/images/mizlog-ico.png";
+import mizlogLogo from "src/assets/images/mizlog-ico.png";
 import Link from "next/link";
 import { client } from "src/libs/client";
 

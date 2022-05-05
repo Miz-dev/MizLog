@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import zennLogo from "../../assets/images/zenn.png";
+import zennLogo from "src/assets/images/zenn.png";
 import { Tabs } from "@mantine/core";
 
 const Zenn = () => {

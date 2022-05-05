@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import mizlogLogo from "../../assets/images/mizlog.png";
+import mizlogLogo from "src/assets/images/mizlog.png";
 
 const NAV_ITEMS = [
 	{ href: "/", label: "Home" },
