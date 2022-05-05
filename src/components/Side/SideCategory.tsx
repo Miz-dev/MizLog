@@ -7,11 +7,11 @@ export const SideCategory = () => {
 		<div>
 			<h3 className="mb-5 text-xl">Category</h3>
 			<ul>
-				<li className="text-lg">テスト</li>
-				<li>テスト</li>
-				<li>テスト</li>
-				<li>テスト</li>
-				<li>テスト</li>
+				<li>実装予定！</li>
+				<li>実装予定！</li>
+				<li>実装予定！</li>
+				<li>実装予定！</li>
+				<li>実装予定！</li>
 			</ul>
 		</div>
 	);
