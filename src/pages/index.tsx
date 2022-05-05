@@ -56,7 +56,6 @@ const Home: NextPage<Props> = (props) => {
 								</li>
 							);
 						})}
-						;
 					</ul>
 				</Tabs.Tab>
 				<Tabs.Tab label="Life Hack" className="w-40">
@@ -80,7 +79,6 @@ const Home: NextPage<Props> = (props) => {
 								</li>
 							);
 						})}
-						;
 					</ul>
 				</Tabs.Tab>
 			</Tabs>
