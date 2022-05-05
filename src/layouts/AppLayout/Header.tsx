@@ -11,10 +11,12 @@ const NAV_ITEMS = [
 export const Header = () => {
 	return (
 		<header className="h-18 mb-10 flex w-full flex-col items-center justify-center">
-			<div className="my-6 w-40">
-				<Image src={mizlogLogo} alt="mizkog-logo" />
-				<p className="text-sm text-gray-500">Web制作の備忘録</p>
-			</div>
+			<Link href="/">
+				<a className="my-6 w-40">
+					<Image src={mizlogLogo} alt="mizkog-logo" />
+					<p className="text-sm text-gray-500">Web制作の備忘録</p>
+				</a>
+			</Link>
 			<div>
 				{NAV_ITEMS.map((item) => {
 					return (
