@@ -7,11 +7,16 @@ type Props = Blog & MicroCMSContentId & MicroCMSDate;
 
 const BlogId: NextPage<Props> = (props) => {
 	return (
-		<div>
-			<h1>{props.title}</h1>
+		<main className="flex flex-col justify-center">
+			<h1 className="mb-5 border-b pb-2 text-center text-2xl font-bold text-blue-900">
+				{props.title}
+			</h1>
 			<time>{props.publishedAt}</time>
-			<div dangerouslySetInnerHTML={{ __html: props.body }} />
-		</div>
+			<div
+				className="prose max-w-none"
+				dangerouslySetInnerHTML={{ __html: props.body }}
+			/>
+		</main>
 	);
 };
 
