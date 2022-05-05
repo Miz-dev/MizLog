@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mizAvatar from "../../assets/images/miz.png";
+import mizAvatar from "src/assets/images/miz.png";
 
 export const Profile = () => {
 	return (
