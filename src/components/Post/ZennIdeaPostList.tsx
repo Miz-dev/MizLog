@@ -2,11 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import zennLogo from "src/assets/images/zenn.png";
 
-export const ZennTechPost = () => {
+export const ZennIdeaPostList = () => {
 	return (
 		<ul className="mt-6 grid grid-cols-1 gap-4 xs:grid-cols-2 xs:gap-6 md:mt-8 md:gap-8">
 			<li className="rounded-lg shadow">
-				<Link href="https://zenn.dev/miz_dev/articles/c26ab943f35b8f">
+				<Link href="https://zenn.dev/miz_dev/articles/f0b926126c138f">
 					<a
 						target="_blank"
 						className="flex h-full flex-col justify-between px-6 py-10 hover:bg-gray-100"
@@ -18,13 +18,13 @@ export const ZennTechPost = () => {
 							Zenn.dev
 						</div>
 						<h2 className="truncate text-lg font-bold text-blue-900">
-							Sassって何？使うことのメリットを簡単に解説！【効率爆上がり！】
+							ポモドーロ・テクニックとは？【集中して作業したい方必見！】
 						</h2>
 					</a>
 				</Link>
 			</li>
 			<li className="rounded-lg shadow">
-				<Link href="https://zenn.dev/miz_dev/articles/8f406c76abe442">
+				<Link href="https://zenn.dev/miz_dev/articles/a37c62460f21ea">
 					<a
 						target="_blank"
 						className="flex h-full flex-col justify-between px-6 py-10 hover:bg-gray-100"
@@ -36,13 +36,13 @@ export const ZennTechPost = () => {
 							Zenn.dev
 						</div>
 						<h2 className="truncate text-lg font-bold text-blue-900">
-							TypeScriptの基本的なところを備忘として残しておく
+							【Mac】意外と便利！Controlキーのショートカットキー！【作業効率爆上がり！】
 						</h2>
 					</a>
 				</Link>
 			</li>
 			<li className="rounded-lg shadow">
-				<Link href="https://zenn.dev/miz_dev/articles/fbd8c297601022">
+				<Link href="https://zenn.dev/miz_dev/articles/157a7aaad0bdcf">
 					<a
 						target="_blank"
 						className="flex h-full flex-col justify-between px-6 py-10 hover:bg-gray-100"
@@ -54,13 +54,14 @@ export const ZennTechPost = () => {
 							Zenn.dev
 						</div>
 						<h2 className="truncate text-lg font-bold text-blue-900">
-							webpack-dev-serverからcontentBaseが消えてエラーになる
+							【コーディングが爆速に！】ユーザースニペットとは？【Visual Studio
+							Code】
 						</h2>
 					</a>
 				</Link>
 			</li>
 			<li className="rounded-lg shadow">
-				<Link href="https://zenn.dev/miz_dev/articles/81ae64fbdd22ce">
+				<Link href="https://zenn.dev/miz_dev/articles/6cac5f2e32398d">
 					<a
 						target="_blank"
 						className="flex h-full flex-col justify-between px-6 py-10 hover:bg-gray-100"
@@ -72,7 +73,7 @@ export const ZennTechPost = () => {
 							Zenn.dev
 						</div>
 						<h2 className="truncate text-lg font-bold text-blue-900">
-							Gitとは？Githubって何？初心者向け解説！
+							Emmetとは？これだけ知っておけばOK！
 						</h2>
 					</a>
 				</Link>

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Tabs } from "@mantine/core";
-import { ZennTechPost } from "src/components/Post/ZennTechPost";
-import { ZennIdeaPost } from "src/components/Post/ZennIdeaPost";
+import { ZennTechPostList } from "src/components/Post/ZennTechPostList";
+import { ZennIdeaPostList } from "src/components/Post/ZennIdeaPostList";
 
 const Zenn = () => {
 	return (
@@ -11,10 +11,10 @@ const Zenn = () => {
 			</Head>
 			<Tabs className="flex flex-col items-center justify-center">
 				<Tabs.Tab label="Tech" className="w-36 xs:w-40">
-					<ZennTechPost />
+					<ZennTechPostList />
 				</Tabs.Tab>
 				<Tabs.Tab label="Ideas" className="w-36 xs:w-40">
-					<ZennIdeaPost />
+					<ZennIdeaPostList />
 				</Tabs.Tab>
 			</Tabs>
 		</div>
