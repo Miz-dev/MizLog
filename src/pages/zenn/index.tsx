@@ -10,10 +10,10 @@ const Zenn = () => {
 				<title>Zenn | Web制作の備忘録</title>
 			</Head>
 			<Tabs className="flex flex-col items-center justify-center">
-				<Tabs.Tab label="Tech" className="w-40">
+				<Tabs.Tab label="Tech" className="w-36 xs:w-40">
 					<ZennTechPost />
 				</Tabs.Tab>
-				<Tabs.Tab label="Ideas" className="w-40">
+				<Tabs.Tab label="Ideas" className="w-36 xs:w-40">
 					<ZennIdeaPost />
 				</Tabs.Tab>
 			</Tabs>

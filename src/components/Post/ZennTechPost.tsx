@@ -4,7 +4,7 @@ import zennLogo from "src/assets/images/zenn.png";
 
 export const ZennTechPost = () => {
 	return (
-		<ul className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-2 md:gap-8">
+		<ul className="mt-6 grid grid-cols-1 gap-4 xs:grid-cols-2 xs:gap-6 md:mt-8 md:gap-8">
 			<li className="rounded-lg shadow">
 				<Link href="https://zenn.dev/miz_dev/articles/c26ab943f35b8f">
 					<a

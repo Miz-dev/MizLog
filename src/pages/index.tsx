@@ -21,8 +21,8 @@ const Home: NextPage<Props> = (props) => {
 				<title>MizLog | Web制作の備忘録</title>
 			</Head>
 			<Tabs className="flex flex-col items-center justify-center">
-				<Tabs.Tab label="Web Design" className="w-40">
-					<ul className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-2 md:gap-8">
+				<Tabs.Tab label="Web Design" className="w-36 xs:w-40">
+					<ul className="mt-6 grid grid-cols-1 gap-4 xs:grid-cols-2 xs:gap-6 md:mt-8 md:gap-8">
 						{props.contents.map((content) => {
 							return (
 								<li className="rounded-lg shadow" key={content.id}>
@@ -45,7 +45,7 @@ const Home: NextPage<Props> = (props) => {
 					</ul>
 				</Tabs.Tab>
 				{/* <Tabs.Tab label="Life Hack" className="w-40">
-					<ul className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-2 md:gap-8">
+					<ul className="mt-6 grid grid-cols-1 gap-4 xs:grid-cols-2 xs:gap-6 md:mt-8 md:gap-8">
 						{props.contents.map((content) => {
 							return (
 								<li className="rounded-lg shadow" key={content.id}>
