@@ -10,9 +10,9 @@ const NAV_ITEMS = [
 
 export const Header = () => {
 	return (
-		<header className="h-18 mb-10 flex w-full flex-col items-center justify-center">
+		<header className="h-18 mb-6 flex w-full flex-col items-center justify-center xs:mb-10">
 			<Link href="/">
-				<a className="my-6 w-40">
+				<a className="mt-6 mb-4 w-36 xs:my-6 xs:w-40">
 					<Image src={mizlogLogo} alt="mizkog-logo" />
 					<p className="text-sm text-gray-500">Web制作の備忘録</p>
 				</a>
