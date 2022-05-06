@@ -44,7 +44,7 @@ const Zenn = () => {
 										Zenn.dev
 									</div>
 									<h2 className="truncate text-lg font-bold text-blue-900">
-										Type Scriptの基本的なところを備忘として残しておく
+										TypeScriptの基本的なところを備忘として残しておく
 									</h2>
 								</a>
 							</Link>
