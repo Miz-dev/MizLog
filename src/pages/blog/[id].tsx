@@ -1,5 +1,6 @@
 import { MicroCMSContentId, MicroCMSDate } from "microcms-js-sdk";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import Head from "next/head";
 import { client } from "src/libs/client";
 import { Blog } from "src/pages";
 
@@ -7,16 +8,21 @@ type Props = Blog & MicroCMSContentId & MicroCMSDate;
 
 const BlogId: NextPage<Props> = (props) => {
 	return (
-		<main className="flex flex-col justify-center">
-			<h1 className="mb-5 border-b pb-2 text-center text-2xl font-bold text-blue-900">
-				{props.title}
-			</h1>
-			{/* <time>{props.publishedAt}</time> */}
-			<div
-				className="prose max-w-none"
-				dangerouslySetInnerHTML={{ __html: props.body }}
-			/>
-		</main>
+		<>
+			<Head>
+				<title>{props.title} | MizLog</title>
+			</Head>
+			<main className="flex flex-col justify-center">
+				<h1 className="mb-5 border-b pb-2 text-center text-2xl font-bold text-blue-900">
+					{props.title}
+				</h1>
+				{/* <time>{props.publishedAt}</time> */}
+				<div
+					className="prose max-w-none"
+					dangerouslySetInnerHTML={{ __html: props.body }}
+				/>
+			</main>
+		</>
 	);
 };
 

@@ -7,7 +7,7 @@ const Zenn = () => {
 	return (
 		<div>
 			<Head>
-				<title>Zenn | Web制作の備忘録</title>
+				<title>Zenn | MizLog</title>
 			</Head>
 			<Tabs className="flex flex-col items-center justify-center">
 				<Tabs.Tab label="Tech" className="w-36 xs:w-40">
