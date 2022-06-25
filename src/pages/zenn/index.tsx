@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Tabs } from "@mantine/core";
-import { ZennTechPostList } from "src/components/Post/ZennTechPostList";
-import { ZennIdeaPostList } from "src/components/Post/ZennIdeaPostList";
+import { ZennTechPostList } from "src/component/Post/ZennTechPostList";
+import { ZennIdeaPostList } from "src/component/Post/ZennIdeaPostList";
 
 const Zenn = () => {
 	return (

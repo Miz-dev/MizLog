@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import mizlogLogo from "src/assets/images/mizlog-ico.png";
 import Link from "next/link";
-import { client } from "src/libs/client";
+import { client } from "src/lib/client";
 
 export type Blog = {
 	title: string;

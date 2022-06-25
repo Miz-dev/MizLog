@@ -1,5 +1,5 @@
-import { Profile } from "src/components/Side/Profile";
-import { SideCategory } from "src/components/Side/SideCategory";
+import { Profile } from "src/component/Side/Profile";
+import { SideCategory } from "src/component/Side/SideCategory";
 
 export const Side = () => {
 	return (

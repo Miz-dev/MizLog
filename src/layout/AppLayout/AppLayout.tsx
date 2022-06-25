@@ -1,6 +1,6 @@
-import { Footer } from "src/layouts/AppLayout/Footer";
-import { Header } from "src/layouts/AppLayout/Header";
-import { Side } from "src/layouts/AppLayout/Side";
+import { Footer } from "src/layout/AppLayout/Footer/Footer";
+import { Header } from "src/layout/AppLayout/Header/Header";
+import { Side } from "src/layout/AppLayout/Side/Side";
 
 export const AppLayout = (props: any) => {
 	return (
