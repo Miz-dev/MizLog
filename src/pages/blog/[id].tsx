@@ -3,6 +3,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { client } from "src/lib/client";
 import { Blog } from "src/pages";
+import styles from "./styles.module.css";
 
 type Props = Blog & MicroCMSContentId & MicroCMSDate;
 
@@ -17,10 +18,12 @@ const BlogId: NextPage<Props> = (props) => {
 					{props.title}
 				</h1>
 				{/* <time>{props.publishedAt}</time> */}
-				<div
-					className="prose max-w-none"
-					dangerouslySetInnerHTML={{ __html: props.body }}
-				/>
+				<div className={styles.blogContent}>
+					<div
+						className="prose max-w-none"
+						dangerouslySetInnerHTML={{ __html: props.body }}
+					/>
+				</div>
 			</main>
 		</>
 	);
