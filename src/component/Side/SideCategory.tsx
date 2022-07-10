@@ -10,8 +10,6 @@ export const SideCategory = () => {
 				<li>実装予定</li>
 				<li>実装予定</li>
 				<li>実装予定</li>
-				<li>実装予定</li>
-				<li>実装予定</li>
 			</ul>
 		</div>
 	);
