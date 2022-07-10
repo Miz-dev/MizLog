@@ -1,4 +1,5 @@
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
+import { GoogleAnalytics } from "src/lib/gtag";
 
 export default class Document extends NextDocument {
 	render() {
@@ -30,6 +31,7 @@ export default class Document extends NextDocument {
 					/>
 					<meta name="msapplication-TileColor" content="#ffffff" />
 					<meta name="theme-color" content="#ffffff" />
+					<GoogleAnalytics />
 				</Head>
 				<body>
 					<Main />
