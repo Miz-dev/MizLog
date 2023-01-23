@@ -7,7 +7,7 @@ import styles from "./styles.module.css";
 
 type Props = Blog & MicroCMSContentId & MicroCMSDate;
 
-const BlogId: NextPage<Props> = (props) => {
+const BlogId: NextPage<Props> = (props: any) => {
 	return (
 		<>
 			<Head>
