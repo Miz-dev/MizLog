@@ -17,4 +17,10 @@
   font-size: 18px;
   letter-spacing: 0.1em;
 }
+.blogContent .category {
+  display: flex;
+  justify-content: flex-end;
+  color: #6090cc;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=styles.module.css.map */

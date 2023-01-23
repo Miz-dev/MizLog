@@ -19,6 +19,7 @@ const BlogId: NextPage<Props> = (props) => {
 				</h1>
 				{/* <time>{props.publishedAt}</time> */}
 				<div className={styles.blogContent}>
+					<span className={styles.category}>{props.category.name}</span>
 					<div
 						className="prose max-w-none"
 						dangerouslySetInnerHTML={{ __html: props.body }}

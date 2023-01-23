@@ -10,6 +10,7 @@ import { client } from "src/lib/client";
 export type Blog = {
 	title: string;
 	body: string;
+	category: string;
 };
 
 type Props = MicroCMSListResponse<Blog>;
