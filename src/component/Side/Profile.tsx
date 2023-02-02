@@ -22,7 +22,7 @@ export const Profile = () => {
 				自らの経験から未経験からWeb業界を目指す人向けの情報、Web制作についてのちょっとしたTipsや役立つことを発信しています！
 				<br />
 				<br />
-				TypeScript/React/Next.js学習中
+				TypeScript/React/Next.js/Astro学習中
 			</p>
 			<div className="flex items-center">
 				<Link href="https://twitter.com/Miz_dev">
