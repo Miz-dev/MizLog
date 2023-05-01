@@ -5,7 +5,7 @@ import mizlogLogo from "src/assets/images/mizlog.png";
 const NAV_ITEMS = [
 	{ href: "/", label: "Home" },
 	{ href: "/zenn", label: "Zenn" },
-	{ href: "/portfolio", label: "Portfolio" },
+	{ href: "/works", label: "Works" },
 ];
 
 export const Header = () => {
