@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import portfolio01 from "src/assets/images/portfolio01.png";
+import works01 from "src/assets/images/works01.png";
+import works02 from "src/assets/images/works02.png";
 import comingsoon from "src/assets/images/comingsoon.png";
 
 export const WorksList = () => {
@@ -9,14 +10,14 @@ export const WorksList = () => {
 			<li className="rounded-lg shadow">
 				<Link href="/">
 					<a target="_blank" className="flex h-full flex-col justify-between">
-						<Image src={portfolio01} alt="portfolio01" />
+						<Image className="rounded-lg" src={works01} alt="works01" />
 					</a>
 				</Link>
 			</li>
 			<li className="rounded-lg shadow">
-				<Link href="/">
+				<Link href="https://astro-mizlog.vercel.app/">
 					<a target="_blank" className="flex h-full flex-col justify-between">
-						<Image src={comingsoon} alt="Coming Soon" />
+						<Image className="rounded-lg" src={works02} alt="works02" />
 					</a>
 				</Link>
 			</li>
