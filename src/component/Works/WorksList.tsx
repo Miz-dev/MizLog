@@ -15,7 +15,7 @@ export const WorksList = () => {
 				</Link>
 			</li>
 			<li className="rounded-lg shadow">
-				<Link href="https://astro-mizlog.vercel.app/">
+				<Link href="https://mizdev.vercel.app/">
 					<a target="_blank" className="flex h-full flex-col justify-between">
 						<Image className="rounded-lg" src={works02} alt="works02" />
 					</a>
