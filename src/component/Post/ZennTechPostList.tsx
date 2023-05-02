@@ -4,16 +4,28 @@ import zennLogo from "src/assets/images/zenn.png";
 
 const ZENNTECHPOST = [
 	{
+		href: "https://zenn.dev/miz_dev/articles/typescript-generics",
+		title: "【TypeScript】関数のGenericsについて",
+	},
+	{
+		href: "https://zenn.dev/miz_dev/articles/nodemodule-ignore",
+		title: "誤ってpushしたnode_modulesをGitHubから削除する",
+	},
+	{
+		href: "https://zenn.dev/miz_dev/articles/1519a995ae306a",
+		title: "【TypeScript】Genericsの基礎",
+	},
+	{
 		href: "https://zenn.dev/miz_dev/articles/4e6baa5b747c5d",
 		title: "Reactの基本的なところを備忘として残しておく",
 	},
 	{
-		href: "https://zenn.dev/miz_dev/articles/8f406c76abe442",
-		title: "TypeScriptの基本的なところを備忘として残しておく",
-	},
-	{
 		href: "https://zenn.dev/miz_dev/articles/c26ab943f35b8f",
 		title: "Sassって何？使うことのメリットを簡単に解説！【効率爆上がり！】",
+	},
+	{
+		href: "https://zenn.dev/miz_dev/articles/8f406c76abe442",
+		title: "TypeScriptの基本的なところを備忘として残しておく",
 	},
 	{
 		href: "https://zenn.dev/miz_dev/articles/fbd8c297601022",
