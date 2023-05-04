@@ -4,6 +4,10 @@ import zennLogo from "src/assets/images/zenn.png";
 
 const ZENNTECHPOST = [
 	{
+		href: "https://zenn.dev/miz_dev/articles/astro-sorted-posts",
+		title: "Astroで最新記事から日付順に記事一覧を表示する方法",
+	},
+	{
 		href: "https://zenn.dev/miz_dev/articles/typescript-generics",
 		title: "【TypeScript】関数のGenericsについて",
 	},
