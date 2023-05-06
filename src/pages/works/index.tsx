@@ -12,9 +12,6 @@ const Portfolio = () => {
 				<Tabs.Tab label="Works" className="w-36 xs:w-40">
 					<WorksList />
 				</Tabs.Tab>
-				{/* <Tabs.Tab label="Ideas" className="w-36 xs:w-40">
-					<WorksList />
-				</Tabs.Tab> */}
 			</Tabs>
 		</div>
 	);
