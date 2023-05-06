@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import works01 from "src/assets/images/works01.png";
 import works02 from "src/assets/images/works02.png";
-import comingsoon from "src/assets/images/comingsoon.png";
+// import comingsoon from "src/assets/images/comingsoon.png";
 
 export const WorksList = () => {
 	return (
