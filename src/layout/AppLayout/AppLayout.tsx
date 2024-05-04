@@ -6,7 +6,7 @@ export const AppLayout = (props: any) => {
   return (
     <div className="mx-auto  min-h-screen w-full max-w-7xl px-5">
       <Header />
-      <div className="flex w-full flex-col gap-10 md:flex-row md:justify-between">
+      <div className="flex w-full flex-col gap-10 py-10 md:flex-row md:justify-between md:py-16">
         {props.children}
         <Side />
       </div>
