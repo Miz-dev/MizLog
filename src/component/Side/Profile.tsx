@@ -20,30 +20,37 @@ export const Profile = () => {
         <br />
         <br />
         自らの経験から未経験からWeb業界を目指す人向けの情報、Web制作についてのちょっとしたTipsや役立つことを発信しています！
-        <br />
-        <br />
-        TypeScript/React/Next.js/Astro学習中
       </p>
-      <div className="flex items-center">
+      <div className="flex items-center gap-x-5">
         <Link href="https://twitter.com/Miz_dev">
-          <a target="_blank">
+          <a
+            className="w-5 duration-300 hover:opacity-70 focus:opacity-70"
+            target="_blank"
+          >
             <svg
-              className="mr-4 w-6 fill-blue-500 hover:fill-blue-400"
-              xmlns="http://www.w3.org/2000/svg"
               width="20"
-              viewBox="0 0 40 32"
+              viewBox="0 0 27 28"
+              aria-label="X(Twitter)"
+              className="fill-black-500 w-full"
             >
-              <path
-                d="M35.988,8.086c.024.347.024.695.024,1.044a23,23,0,0,1-23.35,22.99v-.006A23.5,23.5,0,0,1,.082,28.491a16.957,16.957,0,0,0,1.954.116,16.632,16.632,0,0,0,10.192-3.466A8.2,8.2,0,0,1,4.56,19.53a8.316,8.316,0,0,0,3.706-.139,8.115,8.115,0,0,1-6.584-7.921v-.1A8.243,8.243,0,0,0,5.407,12.38,8.011,8.011,0,0,1,2.866,1.594,23.424,23.424,0,0,0,19.78,10.036a8.008,8.008,0,0,1,2.374-7.72,8.305,8.305,0,0,1,11.611.351A16.606,16.606,0,0,0,38.976.706a8.131,8.131,0,0,1-3.608,4.469A16.58,16.58,0,0,0,40.082,3.9,16.557,16.557,0,0,1,35.988,8.086Z"
-                transform="translate(-0.082 -0.12)"
-              ></path>
+              <g clipPath="url(#clip0_1_18)">
+                <path d="M16.0687 11.7356L26.12 0H23.7382L15.0106 10.1899L8.03988 0H0L10.5411 15.4089L0 27.7155H2.38199L11.5985 16.9546L18.9601 27.7155H27L16.0681 11.7356H16.0687ZM12.8062 15.5447L11.7382 14.0103L3.24025 1.80106H6.89884L13.7568 11.6543L14.8248 13.1887L23.7393 25.9963H20.0807L12.8062 15.5452V15.5447Z"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_1_18">
+                  <rect width="27" height="27.7297" fill="white"></rect>
+                </clipPath>
+              </defs>
             </svg>
           </a>
         </Link>
         <Link href="https://github.com/Miz-dev">
-          <a target="_blank">
+          <a
+            className="w-6 duration-300 hover:opacity-70 focus:opacity-70"
+            target="_blank"
+          >
             <svg
-              className="fill-black-500 w-6 hover:fill-gray-600"
+              className="fill-black-500 w-full"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
               width="20"
